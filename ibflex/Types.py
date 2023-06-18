@@ -2460,6 +2460,7 @@ class TransactionTaxDetail(FlexElement):
     code: Tuple[enums.Code, ...] = ()
     levelOfDetail: Optional[str] = None
     subCategory: Optional[str] = None
+    settleDate: Optional[datetime.date] = None
 
 
 @dataclass(frozen=True)
